@@ -1,0 +1,93 @@
+.profile{
+    flex:1;
+
+}
+.profile--header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.edit{
+    background: #dde6ed;
+    padding:12px;
+    border-radius: 10px;
+    color: #969393;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edit .icon{
+    font-size: 20px;
+    transition:0.3s ease-in-out  ;
+}
+.user--profile{
+    height: 85%;
+    background-color: #dde6ed;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.user--profile img{
+    width: 110px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.user--details{
+    width: 100% ;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.user--details .username{
+    color: #526d82;
+}
+.user-skills{
+    background: #fff;
+    flex:1;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+.skill{
+    background: #dde6ed;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.skill--details{
+    display: flex;
+    gap:20px;
+    align-items: center;
+
+}
+.skill--cover{
+    background: #fff;
+    width: 40px;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.04);
+}
+.skill .skill--duration{
+    font-size: 12px;
+}
+.skill .action{
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.profession{
+    color:#969393;
+
+}
